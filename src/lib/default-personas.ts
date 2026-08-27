@@ -1,0 +1,11 @@
+import type { Persona } from './types';
+
+export const AVATAR_COLORS = ['#5876A3', '#8A6F9E', '#4F8B78', '#C27A63', '#82785B', '#5B8299'];
+
+export const DEFAULT_PERSONAS: Persona[] = [
+  { id: 'p_liming', name: '李明', age: 28, gender: '男', occupation: '科技内容创作者', avatarColor: AVATAR_COLORS[0]!, techSavviness: 5, decisionStyle: '冲动型', communication: '表达直接、语速快，常引用行业案例和参数。', values: '重视创新与效率，愿意为真正有价值的新体验付费。', attitude: '乐于尝鲜，但对伪需求和营销话术非常敏感。', behavior: '会第一时间体验新品，并主动对比同类产品。', catchphrase: '这个点有意思，但得看实际体验。', backstory: '长期关注消费电子与智能硬件，对产品细节和行业趋势熟悉。', projectId: 'proj_default', projectName: '智能咖啡壶研究', createdAt: 0 },
+  { id: 'p_wangfang', name: '王芳', age: 62, gender: '女', occupation: '退休教师', avatarColor: AVATAR_COLORS[1]!, techSavviness: 2, decisionStyle: '谨慎型', communication: '语速平稳，习惯用日常生活场景解释观点。', values: '看重实用、可靠和家庭价值，不喜欢复杂功能。', attitude: '对新科技保持距离，但愿意尝试真正省心的产品。', behavior: '购买前会反复比较价格，并征求家人意见。', catchphrase: '我最关心的是好不好学、值不值。', backstory: '退休后主要照顾家庭，正在逐步适应各种智能设备。', projectId: 'proj_default', projectName: '智能咖啡壶研究', createdAt: 0 },
+  { id: 'p_zhangwei', name: '张伟', age: 30, gender: '男', occupation: '后端工程师', avatarColor: AVATAR_COLORS[2]!, techSavviness: 5, decisionStyle: '理性型', communication: '逻辑清晰，喜欢追问边界条件和稳定性。', values: '重视可控、稳定和隐私，反感不必要的联网功能。', attitude: '认可自动化，但要求它足够可靠。', behavior: '习惯阅读参数、评测和长期使用反馈后再决策。', catchphrase: '这个功能的失败场景是什么？', backstory: '工作节奏快，希望工具减少重复操作而不是增加维护成本。', projectId: 'proj_default', projectName: '智能咖啡壶研究', createdAt: 0 },
+  { id: 'p_chenxi', name: '陈曦', age: 22, gender: '女', occupation: '大学生', avatarColor: AVATAR_COLORS[3]!, techSavviness: 4, decisionStyle: '从众型', communication: '表达轻松，关注颜值、社交分享和同龄人口碑。', values: '在有限预算内追求设计感和情绪价值。', attitude: '容易被新鲜体验吸引，也会快速失去兴趣。', behavior: '决策受社交媒体内容、朋友推荐和优惠活动影响。', catchphrase: '如果好看又方便，我会想试试。', backstory: '住校，消费预算有限，喜欢能提升生活仪式感的小产品。', projectId: 'proj_default', projectName: '智能咖啡壶研究', createdAt: 0 },
+  { id: 'p_zhaomin', name: '赵敏', age: 39, gender: '女', occupation: '企业管理者', avatarColor: AVATAR_COLORS[4]!, techSavviness: 3, decisionStyle: '理性型', communication: '表达简洁，关注结果、效率和总体成本。', values: '时间价值高，愿意为稳定和省心支付溢价。', attitude: '不追求参数，但要求产品真正改善工作与生活节奏。', behavior: '依赖可信品牌、专业推荐和售后保障做决定。', catchphrase: '它到底能帮我节省多少时间？', backstory: '日程密集，经常出差，希望日常用品无需额外管理。', projectId: 'proj_default', projectName: '智能咖啡壶研究', createdAt: 0 },
+];
